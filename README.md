@@ -4,7 +4,21 @@ This project couldn't have been possible if it wasn't for alot of resources. I w
 
 ### Recoveries 
 
-Options at the moment of writing are, TWRP, PBRP, OrangeFox. 
+Options at the moment of writing are, TWRP, PBRP, OrangeFox.
+
+*Flashing* 
+
+Download the recovery you want. Once downloaded, on your phone, open settings, go to About phone -> Device identifiers  -> Tap build number until you get the toast notif that you are now a developer.
+
+Go back to the normal settings, and click settings then developer settings and enable USB Debugging.
+
+Once enabled, plug your phone into your computer and download ADB (Android Debug Bridge) and reboot the phone into the bootloader by running the command "adb reboot bootloader"
+
+Once you see the Android with a open panel, run the command; "fastboot flash recovery [img file name]" (Make sure your terminal is in the directory your recovery image is in!)
+
+Once flashed, run fastboot reboot recovery.
+
+Should work, if not, post a GitHub issue.
 
 ### Firmware
 
