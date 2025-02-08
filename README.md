@@ -6,7 +6,7 @@ This is a GitHub repo that attempts to document all information that I know of w
 ## Custom Images
 
 ### Recovery Images
- - Downloads are available in releases. If you don't know how to flash, the guide is [here](https://github.com/lunarriaa/android-device-motorola-avatrn/README.md#flashing-recovery)
+ - Downloads are available in releases. If you don't know how to flash, the guide is [here](#flashing-recovery)
  - [x] TWRP
  - [x] PBRP
  - [x] OFRP
