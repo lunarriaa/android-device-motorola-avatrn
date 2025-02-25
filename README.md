@@ -14,7 +14,9 @@ This is a GitHub repo that attempts to document all information that I know of w
  
 ### Firmware
 
-Currently I have not built any firmware images but if you want to request one, please setup a issue telling me which ROM you would like me to build. I should mention that I may not build every ROM, but I will try to do the ones that are popular.
+crDroid - WIP\
+If you would like to build your own images, or want a certain ROM built, please use the GitHub issue template in this repo.
+If you like to build ROMs for yourself, GitHub user BobTheBlinker has the trees for the kernel, vendor and device.
 
 ## Guides
 
